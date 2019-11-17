@@ -6,18 +6,26 @@ This project implements the Haar Feature-Based Cascaded Classifier as a part of 
 
 ## Dependencies:
 
-* Python (>3.6)
+* [Python](https://www.python.org/downloads/) (>3.6)
 * OpenCV
 * Tflearn
 
+```
 pip install opencv-python
 pip install tflearn
+```
 
 ## Steps to implement
 
 1. Download and extract the pre trained models from [this link](https://drive.google.com/open?id=1TkV3FWR215ArsY_YOHlnEOMci921SSRF), and extract and paste the Data folder into the main working directory.
-2. Run python em_model.py singleface, in order to detect expressions in a single face
-3. Run python em_model.py multiface, in order to detect expressions in multiple faces at the same time. 
+2. In order to detect expressions in a single face, run:
+```
+python em_model.py singleface
+```
+3. In order to detect expressions in multiple faces at the same time, run:
+```
+python em_model.py multiface
+```
 
 ## Output samples
 
