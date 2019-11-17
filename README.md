@@ -15,17 +15,20 @@ pip install tflearn
 
 ## Steps to implement
 
-1. Download and extract the pre trained models from this link, and extract and paste the Data folder into the main working directory.
+1. Download and extract the pre trained models from [this link](https://drive.google.com/open?id=1TkV3FWR215ArsY_YOHlnEOMci921SSRF), and extract and paste the Data folder into the main working directory.
 2. Run python em_model.py singleface, in order to detect expressions in a single face
 3. Run python em_model.py multiface, in order to detect expressions in multiple faces at the same time. 
 
 ## Output samples
 
 Happy:
-![Happy face](https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/happy.png?raw=true =100x100)
+<br>
+<img src="https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/happy.png?raw=true" alt="Happy face" width="255"/>
 
 Angry:
-![Angry face](https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/angry.png?raw=true =100x100)
+<br>
+<img src="https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/angry.png?raw=true" alt="Angry face" width="255"/>
 
 Disgusted:
-![Disgusted face](https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/disgusted.png?raw=true =100x100)
+<br>
+<img src="https://github.com/jash-05/Facial-expression-recognizer-using-OpenCV/blob/master/output%20samples/disgusted.png?raw=true" alt="Disgusted face" width="255"/>
